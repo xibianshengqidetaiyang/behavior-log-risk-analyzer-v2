@@ -1,0 +1,20 @@
+log:
+  src_ip: [源IP, 源地址, src_ip, source_ip, client_ip, srcip]
+  dst_ip: [目标IP, 目的IP, 目标地址, dst_ip, dest_ip, destination_ip, server_ip, dstip]
+  time: [时间, 发生时间, event_time, timestamp, datetime, 日期时间, 时间戳]
+  detail: [详情, 明细, detail, details, message, msg, 日志详情]
+  domain: [访问域名, 域名, domain, host]
+  url: [URL地址, URL, url, request_url, 请求URL]
+  username: [用户名, user, username, account, 用户]
+  app_type: [应用类型, app_type, category]
+  app_name: [具体应用, 应用名称, app_name, application]
+  action: [访问控制, 动作, action, result]
+  terminal_type: [终端类型, terminal_type, device_type, host_type]
+  location: [位置, location, region]
+  row_id: [序号, id, row_id, 编号]
+
+ioc:
+  type: [IOC类型, type, ioc_type]
+  value: [IOC, value, ioc_value, indicator]
+  category: [恶意类别, category, threat_type, 标签]
+  suggestion: [处置建议, suggestion, advice]

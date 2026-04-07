@@ -1,0 +1,18 @@
+log:
+  src_ip: 源IP
+  dst_ip: 目标IP
+  time: 时间
+  detail: 详情
+  username: 用户名
+  app_type: 应用类型
+  app_name: 具体应用
+  action: 访问控制
+  terminal_type: 终端类型
+  location: 位置
+  row_id: 序号
+
+ioc:
+  type: IOC类型
+  value: IOC
+  category: 恶意类别
+  suggestion: 处置建议

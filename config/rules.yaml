@@ -1,0 +1,41 @@
+work_hours:
+  start: 8
+  end: 19
+
+thresholds:
+  repeated_target_count: 20
+  high_risk_score: 80
+  medium_risk_score: 30
+
+risky_file_extensions:
+  - .exe
+  - .dll
+  - .bat
+  - .cmd
+  - .ps1
+  - .zip
+  - .rar
+  - .7z
+  - .msi
+  - .apk
+  - .jar
+  - .vbs
+  - .scr
+
+repeat_target_whitelist:
+  - appnavi.baidu.com
+  - sofire.baidu.com
+  - www.baidu.com
+  - www.google.com
+
+suspicious_domain_keywords:
+  - pastebin
+  - ngrok
+  - vpn
+  - tor
+  - onion
+  - githubusercontent
+  - raw.githubusercontent
+  - weird
+
+public_ip_only: true
