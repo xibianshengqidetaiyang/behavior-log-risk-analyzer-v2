@@ -126,14 +126,6 @@ python src/main.py \
   --detail-col "message"
 ```
 
-### 5）你的真实文件（示例）
-
-```bash
-python src/main.py \
-  --log "behavior260326.csv" \
-  --ioc "information0312.xlsx" \
-  --output-dir output_real
-```
 
 ## 自动识别逻辑
 
